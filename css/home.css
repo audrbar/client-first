@@ -1,5 +1,7 @@
-@import '../basic/base.css';
-@import '../components/components.css';
+@import './base.css';
+@import './components.css';
+
+/* Header Navigation */
 
 .navbar > .container {
     height: 4em;

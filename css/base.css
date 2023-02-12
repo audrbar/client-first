@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 :root {
     --color-black: #232536;
     --color-dark-grey: #4C4C4C;
@@ -24,25 +26,180 @@ body * {
 body {
     font-family:'Lato', Arial, sans-serif;
     background-color: var(--color-medium-grey);
-}
-/* Bazinis antrastes stilius:*/
-h1,h2,h3,h4,h5,h6 {
-    color: var(--color-dark-grey);
-    font-weight: 700;
+    line-height: 1.6;
 }
 
-/* Bazinis paragrafo stilius: */
+h1,h2,h3,h4,h5,h6 {
+    color: var(--color-dark-grey);
+    font-weight: 300;
+    margin: .5em 0;
+}
+
 p {
     font-size: 14px;
     line-height: 1.5;
     color: var(--font-color-secondary);
     font-weight: 400;
+    margin: .5em 0;
 }
-/* Bazinis nuorodu stilius */
+/* Links */
 a {
     text-decoration: none;
     color: var(--color-dark-grey);
 }
+img {
+    width: 100%;
+}
+
+.hidden {
+    visibility: hidden;
+    height: 0;
+  }
+  
+  
+  /* Text colors */
+  .text-primary {
+    color: var(--primary-color);
+  }
+  
+  .text-secondary {
+    color: var(--secondary-color);
+  }
+  
+  .text-dark {
+    color: var(--dark-color);
+  }
+  
+  .text-light {
+    color: var(--light-color);
+  }
+  
+  /* Text sizes */
+  .lead {
+    font-size: 20px;
+  }
+  
+  .sm {
+    font-size: 1rem;
+  }
+  
+  .md {
+    font-size: 2rem;
+  }
+  
+  .lg {
+    font-size: 3rem;
+  }
+  
+  .xl {
+    font-size: 4rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  /* Margin */
+  .my-1 {
+    margin: 1rem 0;
+  }
+  
+  .my-2 {
+    margin: 1.5rem 0;
+  }
+  
+  .my-3 {
+    margin: 2rem 0;
+  }
+  
+  .my-4 {
+    margin: 3rem 0;
+  }
+  
+  .my-5 {
+    margin: 4rem 0;
+  }
+  
+  .m-1 {
+    margin: 1rem;
+  }
+  
+  .m-2 {
+    margin: 1.5rem;
+  }
+  
+  .m-3 {
+    margin: 2rem;
+  }
+  
+  .m-4 {
+    margin: 3rem;
+  }
+  
+  .m-5 {
+    margin: 4rem;
+  }
+  
+  /* Padding */
+  .py-1 {
+    padding: 1rem 0;
+  }
+  
+  .py-2 {
+    padding: 1.5rem 0;
+  }
+  
+  .py-3 {
+    padding: 2rem 0;
+  }
+  
+  .py-4 {
+    padding: 3rem 0;
+  }
+  
+  .py-5 {
+    padding: 4rem 0;
+  }
+  
+  .p-1 {
+    padding: 1rem;
+  }
+  
+  .p-2 {
+    padding: 1.5rem;
+  }
+  
+  .p-3 {
+    padding: 2rem;
+  }
+  
+  .p-4 {
+    padding: 3rem;
+  }
+  
+  .p-5 {
+    padding: 4rem;
+  }
 
 /* sen-regular - latin-ext_latin */
 @font-face {
