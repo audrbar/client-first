@@ -1,14 +1,12 @@
 :root {
-    --main-color: #7c4fe0;
-    --secondary-background: #f6f9fe;
-    --gradient-1: #8731e8;
-    --gradient-2: #4528dc;
-    --primary-background: #fff;
-    --font-color-main: #222;
-    --font-color-secondary: #565656;
-    --font-color-tertiary: #495057;
-    --font-color-fourth: #444;
-    --font-color-fith: #666;
+    --color-black: #232536;
+    --color-dark-grey: #4C4C4C;
+    --color-medium-grey: #6D6E76;
+    --color-light-grey: #F4F4F4;
+    --color-yellow: #FFD050;
+    --light-yellow: #FBF6EA;
+    --color-lavender: #F4F0F8;
+    --color-purple: #592EA9;
 }
 
 html {
@@ -25,12 +23,11 @@ body * {
 
 body {
     font-family:'Lato', Arial, sans-serif;
-    background-color: rgb(47, 43, 43);
-    color: rgb(152, 155, 158);
+    background-color: var(--color-medium-grey);
 }
 /* Bazinis antrastes stilius:*/
 h1,h2,h3,h4,h5,h6 {
-    color: var(--font-color-fith);
+    color: var(--color-dark-grey);
     font-weight: 700;
 }
 
@@ -44,7 +41,7 @@ p {
 /* Bazinis nuorodu stilius */
 a {
     text-decoration: none;
-    color: var(--font-color-main);
+    color: var(--color-dark-grey);
 }
 
 /* sen-regular - latin-ext_latin */

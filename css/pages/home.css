@@ -1,0 +1,22 @@
+@import '../basic/base.css';
+@import '../components/components.css';
+
+.navbar > .container {
+    height: 4em;
+}
+
+.navbar > .logo:hover {
+    border-bottom: .13em solid var(--color-dark-grey);
+}
+
+.navbar .nav a {
+    height: 100%;
+    margin-left: 2em;
+}
+.navbar .nav > article:hover {
+    border-bottom: .13em solid var(--color-dark-grey);
+}
+.navbar .nav a:first-child {
+    margin-left: 0px;
+}
+/* header NAV */
