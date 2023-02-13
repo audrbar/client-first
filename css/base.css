@@ -54,7 +54,16 @@ img {
 .hidden {
     visibility: hidden;
     height: 0;
-  }
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  padding: 15px;
+}
   
   
   /* Text colors */
